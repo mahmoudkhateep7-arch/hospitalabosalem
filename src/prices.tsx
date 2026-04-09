@@ -17,7 +17,7 @@ export default function Prices() {
         </div>
 
         {/* row */}
-        <div className={`grid grid-cols-3 gap-8 max-[900px]:grid-cols-2 max-[600px]:grid-cols-1`}>
+        <div className={`grid grid-cols-3 gap-8 max-[1100px]:grid-cols-2 max-[730px]:grid-cols-1`}>
           {priciesArray.map((item) => {
             return (
               <div className={`bg-white px-8 py-14 border border-[#ddd]`} key={item.name}>
@@ -30,25 +30,25 @@ export default function Prices() {
 
                 <div className={`[&_div]:flex [&_.fa-circle-check]:text-light-blue [&_div]:justify-between flex flex-col gap-3 [&_div]:text-light-gray`}>
                   {item.id == 1 && <>
-                    <div>Lorem, ipsum dolor.<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
-                    <div>Lorem, ipsum dolor.<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
-                    <div>Lorem, ipsum dolor.<FontAwesomeIcon icon={faXmark}></FontAwesomeIcon></div>
-                    <div>Lorem, ipsum dolor.<FontAwesomeIcon icon={faXmark}></FontAwesomeIcon></div>
-                    <div>Lorem, ipsum dolor.<FontAwesomeIcon icon={faXmark}></FontAwesomeIcon></div>
+                    <div>Professional Consultation<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
+                    <div>Laser Whitening Session<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
+                    <div>Post-Care Kit Included<FontAwesomeIcon icon={faXmark}></FontAwesomeIcon></div>
+                    <div>Up to 8 Shades Lighter<FontAwesomeIcon icon={faXmark}></FontAwesomeIcon></div>
+                    <div>Sensitivity Treatment<FontAwesomeIcon icon={faXmark}></FontAwesomeIcon></div>
                   </>}
                   {item.id == 2 && <>
-                    <div>Lorem, ipsum dolor.<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
-                    <div>Lorem, ipsum dolor.<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
-                    <div>Lorem, ipsum dolor.<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
-                    <div>Lorem, ipsum dolor.<FontAwesomeIcon icon={faXmark}></FontAwesomeIcon></div>
-                    <div>Lorem, ipsum dolor.<FontAwesomeIcon icon={faXmark}></FontAwesomeIcon></div>
+                    <div>Pre-operative Screening<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
+                    <div>Minimally Invasive Options<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
+                    <div>Advanced Cardiac Imaging<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
+                    <div>24/7 Nursing Support<FontAwesomeIcon icon={faXmark}></FontAwesomeIcon></div>
+                    <div>Follow-up Consultations<FontAwesomeIcon icon={faXmark}></FontAwesomeIcon></div>
                   </>}
                   {item.id == 3 && <>
-                    <div>Lorem, ipsum dolor.<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
-                    <div>Lorem, ipsum dolor.<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
-                    <div>Lorem, ipsum dolor.<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
-                    <div>Lorem, ipsum dolor.<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
-                    <div>Lorem, ipsum dolor.<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
+                    <div>Specialist Consultation<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
+                    <div>General Anesthesia<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
+                    <div>Post-Op Recovery Plan<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
+                    <div>Non-Invasive Alternatives<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
+                    <div>Certified Surgical Facility<FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon></div>
                   </>}
 
                 </div>
