@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --color-light-blue: #1a7bd1;
+  --color-dark-gray: #2c2d3f;
+  --color-light-gray: #757575;
+  --color-bg-white: #f6f6f6;
+  --color-bg-newsLetter: #edf2ff;
+}
+
+h1,
+h2,
+h3 {
+  @apply text-dark-gray
+}
+
+h2, h3 {
+  @apply font-semibold
+}
+
+p {
+  @apply text-light-gray text-[14px]
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+#imgbg-1 {
+
+  background-image: url('./imgs/bg-home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: top 0px right 0px; */
+
+}
+
+#info-bg,
+#brand-bg {
+  background-image: url('./imgs/info-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: cover;
+}
+
+
+#call-bg {
+  background-image: url('./imgs/call-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: cover;
+}
+
+/* 
+ {
+  background-image: url('./imgs/bg');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: cover;
+
+} */
+
+#form input,
+#form textarea,
+#form select {
+  padding: 15px;
+  border: 1px solid #ddd;
+
+
+}
+
+#form input:focus,
+#form textarea:focus,
+#form select:focus {
+  outline: 2px solid #1a7bd1;
+}
